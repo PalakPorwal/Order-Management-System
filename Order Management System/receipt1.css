@@ -1,0 +1,185 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    margin: 0;
+    color: #333;
+}
+
+.header h3 {
+    margin-top: 5px;
+    font-size: 1.2em;
+    color: #666;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+td:first-child {
+    width: 30%;
+}
+
+td:nth-child(2) {
+    width: 35%;
+}
+
+td:nth-child(3),
+td:nth-child(4),
+td:nth-child(5),
+td:nth-child(6) {
+    width: 11%;
+}
+
+
+
+/* .div1 h3 {
+    text-align: center;
+}
+
+.div1 h2,
+.div1 h3 {
+    display: inline;
+}
+
+
+
+.div2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.div2 .paragraph-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.div2 p {
+    flex-basis: calc(23.333% - 10px); Adjust width as needed */
+   /* margin: 0;
+    padding: 10px;
+} */
+
+
+
+
+/* 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+    color: #333;
+}
+
+.header h2 {
+    margin-top: 5px;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.order-info {
+    margin-bottom: 20px;
+}
+
+.address {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.address span {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.address a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.table-section {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.total-row td {
+    border-top: 1px solid #ddd;
+} */
+
+
+
+
+
+

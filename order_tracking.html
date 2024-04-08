@@ -6,6 +6,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order Tracking</title>
     <style>
+        /* Css for nav and side bar */
+#navbar {
+  background-color: #00246b;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  height: 80px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.6fr 3fr 1fr;
+}
+.nav-logo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-logo {
+  width: 167px;
+  height: 49.75px;
+  margin-left: 10px;
+}
+.nav-item-div {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr 0.6fr;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+.nav-link-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+.nav-btn-div {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.nav-btn {
+  background-color: #1e1e1e;
+  margin-right: 10px;
+  width: 119px;
+  height: 44px;
+  border-radius: 10px;
+}
+.nav-btn a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.nav-btn-div .menu-icon {
+  width: 50px;
+  height: 50px;
+  color: white;
+  display: none;
+}
+
+#side-menu {
+  width: 250px;
+  height: 420px;
+  background-color: #00246b;
+  border-bottom-left-radius: 10px;
+  box-shadow: 5px 0px 0px rgba(0, 0, 0, 0.5);
+  float: right;
+  display: none;
+}
+#side-menu .side-menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#side-menu .close-menu-icon {
+  height: 30px;
+  width: 30px;
+}
+#side-menu .side-menu-nav-btn {
+  background-color: #1e1e1e;
+  width: 119px;
+  height: 44px;
+  border-radius: 10px;
+}
+#side-menu .side-menu-nav-btn a {
+  text-decoration: none;
+  color: white;
+}
+.side-menu-nav-link {
+  margin: 10px;
+}
+
+.main-div {
+  height: 500px;
+  width: 100%;
+}
+/* end of css for nav and side bar */
+
         @media (max-width: 949px) {
   .nav-btn-div .menu-icon {
     display: block;
